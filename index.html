@@ -157,20 +157,20 @@ Build long-term partnerships with brands</p>
   <!-- Email -->
   <input type="email" name="email" placeholder="Your Email" required><br><br>
 
-  <!-- Choose Option -->
-  <label>I am a:</label><br>
-
-  <input type="radio" name="user_type" value="Brand" required> Brand<br>
-  <input type="radio" name="user_type" value="Creator" required> Creator<br><br>
+  <!-- Dropdown (Brand / Creator) -->
+  <select name="user_type" required style="width:250px; padding:10px;">
+    <option value="">I am a...</option>
+    <option value="Brand">Brand</option>
+    <option value="Creator">Creator</option>
+  </select><br><br>
 
   <!-- Message -->
-  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+  <textarea name="message" placeholder="Your Message" required style="width:250px; padding:10px;"></textarea><br><br>
 
   <!-- Submit -->
   <button type="submit">Send Message</button>
 
 </form>
-
   </div>
 </section>
 
