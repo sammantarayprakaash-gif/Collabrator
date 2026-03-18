@@ -149,17 +149,27 @@ Grow your personal brand and reach
 
 Build long-term partnerships with brands</p>
     </div>
-    <form action="https://formspree.io/f/xdawyowb" method="POST" style="width:50%;">
+<form action="https://formspree.io/f/xdawyowb" method="POST">
 
-      <input type="text" name="name" placeholder="Your Name" required style="width:70%; padding:10px;"><br><br>
+  <!-- Name -->
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
 
-      <input type="email" name="email" placeholder="Your Email" required style="width:70%; padding:10px;"><br><br>
+  <!-- Email -->
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
 
-      <textarea name="message" placeholder="Your Message" required style="width:70%; padding:10px;"></textarea><br><br>
+  <!-- Choose Option -->
+  <label>I am a:</label><br>
 
-      <button type="submit" style="padding:10px 20px;">Send Message</button>
+  <input type="radio" name="user_type" value="Brand" required> Brand<br>
+  <input type="radio" name="user_type" value="Creator" required> Creator<br><br>
 
-    </form>
+  <!-- Message -->
+  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+
+  <!-- Submit -->
+  <button type="submit">Send Message</button>
+
+</form>
 
   </div>
 </section>
