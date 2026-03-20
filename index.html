@@ -187,8 +187,44 @@
 <section>
   <h2>Contact Us</h2>
 
+<section style="padding:50px 20px; text-align:center;">
 
-<form action="https://formspree.io/f/xdawyowb" method="POST" style="width:500px;">
+  <h2 style="margin-bottom:20px;">Contact Us</h2>
+
+  <div style="max-width:500px; margin:auto;">
+
+    <form action="https://formspree.io/f/xdawyowb" method="POST">
+
+      <!-- Name -->
+      <input type="text" name="name" placeholder="Your Name" required 
+             style="width:100%; padding:10px; margin-bottom:10px;"><br>
+
+      <!-- Email -->
+      <input type="email" name="email" placeholder="Your Email" required 
+             style="width:100%; padding:10px; margin-bottom:10px;"><br>
+
+      <!-- Dropdown -->
+      <select name="user_type" required 
+              style="width:100%; padding:10px; margin-bottom:10px;">
+        <option value="">I am a...</option>
+        <option value="Brand">Brand</option>
+        <option value="Creator">Creator</option>
+      </select><br>
+
+      <!-- Message -->
+      <textarea name="message" placeholder="Your Message" required 
+                style="width:100%; padding:10px; height:120px; margin-bottom:10px;"></textarea><br>
+
+      <!-- Button -->
+      <button type="submit" style="width:100%; padding:12px;">
+        Send Message
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
 
   <!-- Name -->
   <input type="text" name="name" placeholder="Your Name" required 
